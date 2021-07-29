@@ -1,0 +1,58 @@
+[
+    {
+      "id": 0,
+      "title": "Mona Lisa",
+      "picture": "images/1_Mona_Lisa_Da_Vinci_1503_1519.png",
+      "date": "1503-1519",
+      "author": "Leonardo da Vinci",
+      "price": 1
+    },
+    {
+      "id": 1,
+      "title": "Papilla Estelar",
+      "picture": "images/2_Papilla_Estelar_Remedios_Varo 1958.png",
+      "date": "1958",
+      "author": "Remedios Varo",
+      "price": 1
+    },
+    {
+      "id": 2,
+      "title": "Los girasoles",
+      "picture": "images/3_Van Gogh_ Sun_Flowers_1888.png",
+      "date": "1888",
+      "author": "Vincent Van Gogh",
+      "price": 1
+    },
+    {
+      "id": 3,
+      "title": "El grito",
+      "picture": "images/4_The_Scream_Edvard_Munch_1893.png",
+      "date": "1893",
+      "author": "Edvard Munch",
+      "price": 1
+    },
+    {
+      "id": 4,
+      "title": "La persistencia de la memoria",
+      "picture": "images/5_The_Persistence_of_Memory_1931_Salvador_Dali.png",
+      "date": "1931",
+      "author": "Salvador Dali",
+      "price": 1
+    },
+    {
+      "id": 5,
+      "title": "Mujer Sentada",
+      "picture": "images/6_Mujer_Sentada_1937_Picasso.png",
+      "date": "1937",
+      "author": "Pablo Picasso",
+      "price": 1
+    },
+    {
+      "id": 6,
+      "title": "El nacimiento de Venus",
+      "picture": "images/7_La_Nascita_di_Venere_1482-1485_Sandro_Botticelli.png",
+      "date": "1482-1485",
+      "author": "Sandro Botticelli",
+      "price": 1
+    }
+]

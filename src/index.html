@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NFT's store</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-8 col-sm-push-2">
+                <h1 class="text-center">NFT's store</h1>
+                <hr/>
+                <br/>
+              </div>
+            </div>
+      
+            <div id="nftRow" class="row">
+              
+            </div>
+          </div>
+
+          <div id="nftTemplate" style="display: none;">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div class="panel panel-default panel-nft">
+                <div class="panel-heading">
+                  <h3 class="panel-title"></h3>
+                </div>
+                <div class="panel-body">
+                  <img alt="500x500" data-src="" class="img-rounded img-center" style="height: 400px; width: 100%;" src="" data-holder-rendered="true">
+                  <br/><br/>
+                  <strong>Author: </strong><span class="nft-author"></span><br/>
+                  <strong>Date: </strong><span class="nft-date"></span><br/>
+                  <strong>Price: </strong><span style="color: green;"><span class="nft-price"></span> ETH</span><br/>
+                  
+                  <button class="btn btn-default btn-mint" type="button" data-id="0">Mint</button>
+                  <button class="btn btn-default btn-buy" type="button" data-id="0">Buy</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/web3.min.js"></script>
+            <script src="js/truffle-contract.js"></script>
+            <script src="js/app.js"></script>
+
+    </body>
+</html>
